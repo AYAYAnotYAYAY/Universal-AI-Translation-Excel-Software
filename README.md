@@ -1,99 +1,55 @@
-# 通用AI翻译Excel软件
+# Universal AI Translation Excel Software
 
-## 介绍
+This is a universal AI translation tool for Excel files, supporting various AI models and providing a user-friendly interface for batch translation tasks.
 
-这是一个基于 Python 和 Tkinter 的桌面应用程序，旨在帮助用户方便快捷地翻译 Excel 文件中的文本内容。它利用 AI 模型（目前支持 DeepSeek）进行批量翻译，并提供直观的图形用户界面 (GUI) 来选择源语言单元格和目标语言列，以及配置 AI 模型参数。
+## Features
 
-**主要功能：**
+-   **Excel Integration**: Preview Excel files directly within the application and select columns for translation.
+-   **Multi-AI Support**:
+    -   **Gemini**: Supports Google's Gemini models via their OpenAI-compatible endpoint.
+    -   **DeepSeek**: Supports DeepSeek models.
+    -   **Custom**: Supports any other AI service that has an OpenAI-compatible API.
+-   **Dynamic Model Lists**: Automatically fetches and displays available models from Gemini and DeepSeek after you provide an API key.
+-   **Robust Batch Translation**: Translates text in batches of 100 rows to improve efficiency and reduce API calls.
+-   **Intelligent Error Handling**:
+    -   Automatically retries on API rate limit errors (`429`), parsing the recommended wait time.
+    -   Strictly validates that the number of translated lines matches the number of source lines to prevent data misalignment.
+-   **Proxy Support**: Configure and use HTTP or SOCKS5 proxies for network requests.
+-   **Persistent Configuration**: Saves your AI model and proxy settings locally in a `config.json` file.
 
-*   **Excel 文件预览**：在 GUI 中直接预览 Excel 文件内容，方便选择翻译区域。
-*   **灵活的列选择**：通过鼠标点击预览界面，直观地选择源语言所在的起始单元格和翻译结果输出的目标列。
-*   **AI 模型集成**：目前支持 DeepSeek API 进行翻译，未来可扩展支持其他 AI 模型。
-*   **自定义提示词**：用户可以根据需求自定义 AI 模型的提示词模板，以优化翻译效果。
-*   **批量翻译**：高效处理大量数据，支持批量读取、翻译和写入 Excel 内容。
-*   **日志记录**：详细的日志输出，方便用户追踪翻译进度和排查问题。
-*   **配置保存与加载**：保存和加载 API 密钥、语言设置和提示词模板等配置，方便重复使用。
+## How to Use
 
-## 使用指南
+1.  **Configure AI Model**:
+    -   Go to "Model Management".
+    -   Add a new configuration, select the provider (e.g., Gemini, DeepSeek), and enter your API key.
+    -   Click "Get Model List" to choose a specific model.
+    -   Save the configuration.
+2.  **Load Excel File**:
+    -   Click "Browse..." to load your `.xlsx` or `.xls` file.
+    -   The content will be displayed in the preview panel.
+3.  **Select Columns**:
+    -   **Left-click** on a cell in the column you want to translate from. This sets the "Source Column" and the starting row.
+    -   **Right-click** on a column to set it as the "Target Column" where translations will be placed.
+4.  **Translate**:
+    -   Ensure the correct AI model and languages are selected.
+    -   A dialog will ask you to confirm that the Excel file is closed.
+    -   Click "Start Translation". The progress will be shown in the log panel.
 
-### 1. 环境准备
+---
 
-在运行本软件之前，请确保您的系统已安装 Python 3.x，并安装了以下必要的库：
+### Version History
 
-```bash
-pip install openpyxl requests
-```
+#### v2.0
 
-### 2. 获取API密钥
+**Major Features & Enhancements**
 
-本软件目前使用 DeepSeek API 进行翻译。您需要前往 [DeepSeek 官网](https://www.deepseek.com/) 注册账号并获取您的 API 密钥。
+-   **DeepSeek API Integration**: Added native support for DeepSeek as an API provider, including `deepseek-chat` and `deepseek-reasoner` models.
+-   **Smart Model Fetching**: The app now automatically fetches available models for Gemini and DeepSeek once an API key is entered.
+-   **Robust Batching Engine**: Re-architected the translation logic to process 100 rows per batch, significantly reducing API calls and improving stability.
+-   **Advanced Prompt Engineering**: Implemented a new default prompt with unique delimiters and explicit instructions (including examples) to ensure the AI returns data in the correct format, resolving line-mismatch errors.
 
-### 3. 运行软件
+**Bug Fixes & Stability**
 
-下载或克隆本项目的代码到您的本地。
-
-```bash
-git clone [项目地址]
-cd Universal-AI-Translation-Excel-Software
-```
-
-然后，运行 `app.py` 文件：
-
-```bash
-python app.py
-```
-
-### 4. 软件界面操作
-
-1.  **选择 Excel 文件**：
-    *   点击界面左上角的“浏览...”按钮，选择您要翻译的 Excel 文件（支持 `.xlsx` 和 `.xls` 格式）。
-    *   文件加载后，其内容将在预览区域显示。
-
-2.  **选择源语言单元格和目标语言列**：
-    *   在 Excel 预览区域，**左键单击**您要翻译的源语言内容的**起始单元格**。例如，如果您的俄语内容从 `C2` 开始，您就点击 `C2` 单元格。
-    *   在 Excel 预览区域，**右键单击**您希望翻译结果写入的**目标列**的任意单元格。例如，如果您希望翻译结果写入 `D` 列，您就右键点击 `D` 列的任意单元格。
-    *   您选择的源语言列/行和目标语言列将显示在“Excel文件预览与列选择”区域下方，方便您确认。
-
-3.  **设置语言**：
-    *   在“语言设置”区域，输入源语言和目标语言。默认是“俄语”和“简体中文”。
-
-4.  **配置 AI 模型**：
-    *   在“AI 模型设置”区域，选择 API 提供商（目前只有 DeepSeek）。
-    *   在“API 密钥”输入框中，粘贴您的 DeepSeek API 密钥。
-    *   您可以根据需要修改“提示词模板”来优化翻译效果。请保留 `{source_language}`、`{target_language}` 和 `{text_to_translate}` 这三个占位符，它们将在翻译时被程序自动替换。
-
-5.  **开始翻译**：
-    *   确认所有设置无误后，点击右下角的“开始翻译”按钮。
-    *   翻译过程将在后台运行，状态和日志信息将显示在右侧的日志面板中。
-
-6.  **保存/加载配置**：
-    *   点击“保存配置”按钮可以将当前的所有设置保存到 `config.json` 文件中。
-    *   点击“加载配置”按钮可以从 `config.json` 文件中加载之前保存的设置。
-
-### 5. 日志查看
-
-软件运行时，所有操作和翻译进度都会在右侧的“状态和日志”面板中实时显示。同时，日志也会被记录到项目根目录下的 `translation.log` 文件中，方便您后续查看和分析。
-
-## 注意事项
-
-*   请确保您的 API 密钥是有效的，并且有足够的调用额度。
-*   在翻译过程中，请勿关闭或修改正在翻译的 Excel 文件，否则可能导致 `PermissionError` 或数据损坏。如果遇到 `PermissionError`，请关闭该文件后重试。
-*   AI 模型的翻译质量取决于模型本身和您提供的提示词。如果翻译效果不理想，请尝试调整提示词模板。
-*   对于非常大的 Excel 文件，翻译可能需要较长时间。请耐心等待。
-
-## 常见问题
-
-*   **`PermissionError: [Errno 13] Permission denied`**：
-    *   这通常意味着您尝试写入的 Excel 文件正在被其他程序（如 Microsoft Excel）占用。请关闭该文件后重试。
-*   **翻译结果不准确或不完整**：
-    *   尝试调整“提示词模板”，提供更明确的翻译指示。
-    *   检查您的源文本内容是否清晰、无歧义。
-    *   如果问题持续存在，可能是 AI 模型本身的限制，您可以尝试更换其他 AI 模型（如果未来版本支持）。
-
-## 贡献
-
-如果您有任何改进建议或发现 Bug，欢迎通过 GitHub 提交 Issue 或 Pull Request。
-
-## 许可证
-
-[根据您的项目选择合适的许可证，例如 MIT, Apache 2.0 等]
+-   **Rate Limit Auto-Retry**: The application now intelligently handles `429` errors by waiting for the API-suggested duration before automatically retrying.
+-   **File Lock Prevention**: Changed the file saving logic to perform a single save at the end of the entire translation process and added a pre-flight check to ensure the target file is closed, eliminating `Permission Denied` errors.
+-   **UI & Startup Fixes**: Corrected bugs related to UI updates from background threads and fixed a critical f-string `NameError` that caused the application to crash on startup.

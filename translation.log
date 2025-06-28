@@ -189,3 +189,2073 @@ PermissionError: [Errno 13] Permission denied: 'C:/Users/68783/Desktop/刘帅事
 2025-06-27 19:28:02,799 - INFO - 配置已从 config.json 加载
 2025-06-28 08:41:09,218 - INFO - 配置已从 config.json 加载
 2025-06-28 09:09:00,702 - INFO - 配置已从 config.json 加载
+2025-06-28 10:33:18,516 - WARNING - 尝试选择不存在的模型: 
+2025-06-28 10:33:18,517 - WARNING - 尝试选择不存在的模型: 
+2025-06-28 10:33:18,517 - INFO - 配置已从 config.json 加载
+2025-06-28 10:34:28,962 - INFO - 配置已保存到: config.json
+2025-06-28 10:34:28,963 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:34:32,809 - INFO - 配置已保存到: config.json
+2025-06-28 10:34:36,114 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:34:49,734 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/奇瑞车型收集.xlsx
+2025-06-28 10:34:49,783 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 10:35:01,047 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:35:01,068 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 10:35:42,572 - INFO - 配置已保存到: config.json
+2025-06-28 10:39:19,753 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:39:19,753 - INFO - 配置已从 config.json 加载
+2025-06-28 10:39:25,265 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:39:25,280 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 10:39:35,299 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 10:39:35,300 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 10:39:35,300 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 10:39:35,300 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:39:35,300 - INFO - 翻译任务启动...
+2025-06-28 10:39:35,310 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 10:39:35,311 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:39:35,317 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 10:39:35,325 - DEBUG - 翻译器已初始化。
+2025-06-28 10:39:35,329 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:39:35,345 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 10:39:35,350 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 10:39:35,354 - INFO - 文件加载成功，共 20 行。
+2025-06-28 10:39:35,365 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 10:39:35,376 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 10:39:35,380 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 10:39:35,385 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 10:39:35,395 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 10:39:37,627 - DEBUG - 批次 1 翻译结果 (前50字符): ['', '', '', '', '', '', '', '', '', '', '', '', '...
+2025-06-28 10:39:37,628 - DEBUG - 正在写入批次 1 的翻译结果...
+2025-06-28 10:39:37,642 - INFO - 批次 1 完成并已保存。
+2025-06-28 10:39:37,649 - INFO - 所有翻译任务已完成！
+2025-06-28 10:39:43,344 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:39:43,357 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 10:43:46,327 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:43:46,327 - INFO - 配置已从 config.json 加载
+2025-06-28 10:43:50,430 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:43:50,431 - INFO - 配置已从 config.json 加载
+2025-06-28 10:43:53,628 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:43:53,628 - INFO - 配置已从 config.json 加载
+2025-06-28 10:43:59,396 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:43:59,397 - INFO - 配置已从 config.json 加载
+2025-06-28 10:44:03,906 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:44:03,921 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 10:44:19,665 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 10:44:19,665 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 10:44:19,665 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 10:44:19,666 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:44:19,666 - INFO - 翻译任务启动...
+2025-06-28 10:44:19,672 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 10:44:19,675 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:44:19,680 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 10:44:19,684 - DEBUG - 翻译器已初始化。
+2025-06-28 10:44:19,693 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:44:19,709 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 10:44:19,714 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 10:44:19,724 - INFO - 文件加载成功，共 20 行。
+2025-06-28 10:44:19,735 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 10:44:19,739 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 10:44:19,743 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 10:44:19,754 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 10:44:19,766 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 10:44:19,779 - ERROR - 发生严重错误: name 'json' is not defined
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 733, in _translation_worker
+    translated = self.translator.translate_batch(sources, prompt_template, source_language, target_language)
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\translator.py", line 42, in translate_batch
+    logger.debug(f"API请求Payload: {json.dumps(payload, ensure_ascii=False, indent=2)}")
+                                    ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'?
+2025-06-28 10:44:46,635 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:44:46,636 - INFO - 配置已从 config.json 加载
+2025-06-28 10:44:49,875 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:44:49,889 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 10:44:52,503 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 10:44:52,503 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 10:44:52,503 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 10:44:52,503 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:44:52,504 - INFO - 翻译任务启动...
+2025-06-28 10:44:52,511 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 10:44:52,514 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:44:52,516 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 10:44:52,519 - DEBUG - 翻译器已初始化。
+2025-06-28 10:44:52,524 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:44:52,540 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 10:44:52,545 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 10:44:52,550 - INFO - 文件加载成功，共 20 行。
+2025-06-28 10:44:52,554 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 10:44:52,566 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 10:44:52,578 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 10:44:52,583 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 10:44:52,588 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 10:44:52,602 - ERROR - 发生严重错误: name 'json' is not defined
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 733, in _translation_worker
+    translated = self.translator.translate_batch(sources, prompt_template, source_language, target_language)
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\translator.py", line 42, in translate_batch
+    logger.debug(f"API请求Payload: {json.dumps(payload, ensure_ascii=False, indent=2)}")
+                                    ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'?
+2025-06-28 10:46:37,431 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:46:37,432 - INFO - 配置已从 config.json 加载
+2025-06-28 10:46:41,187 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:46:41,201 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 10:46:45,604 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 10:46:45,604 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 10:46:45,605 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 10:46:45,605 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:46:45,605 - INFO - 翻译任务启动...
+2025-06-28 10:46:45,613 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 10:46:45,616 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:46:45,622 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 10:46:45,627 - DEBUG - 翻译器已初始化。
+2025-06-28 10:46:45,635 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:46:45,646 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 10:46:45,652 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 10:46:45,656 - INFO - 文件加载成功，共 20 行。
+2025-06-28 10:46:45,660 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 10:46:45,670 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 10:46:45,675 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 10:46:45,685 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 10:46:45,696 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 10:46:47,956 - DEBUG - 批次 1 翻译结果 (前50字符): ['', '', '', '', '', '', '', '', '', '', '', '', '...
+2025-06-28 10:46:47,956 - DEBUG - 正在写入批次 1 的翻译结果...
+2025-06-28 10:46:47,980 - INFO - 批次 1 完成并已保存。
+2025-06-28 10:46:47,986 - INFO - 所有翻译任务已完成！
+2025-06-28 10:52:21,129 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:52:21,129 - INFO - 配置已从 config.json 加载
+2025-06-28 10:52:25,203 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:52:25,218 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 10:52:29,075 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 10:52:29,075 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 10:52:29,075 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 10:52:29,075 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:52:29,075 - INFO - 翻译任务启动...
+2025-06-28 10:52:29,081 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 10:52:29,084 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:52:29,090 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 10:52:29,093 - DEBUG - 翻译器已初始化。
+2025-06-28 10:52:29,103 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:52:29,119 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 10:52:29,124 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 10:52:29,134 - INFO - 文件加载成功，共 20 行。
+2025-06-28 10:52:29,144 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 10:52:29,149 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 10:52:29,159 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 10:52:29,170 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 10:52:29,182 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 10:52:31,342 - DEBUG - 批次 1 翻译结果 (前50字符): ['[HTTP错误 404]', '[HTTP错误 404]', '[HTTP错误 404]', '...
+2025-06-28 10:52:31,342 - DEBUG - 正在写入批次 1 的翻译结果...
+2025-06-28 10:52:31,357 - INFO - 批次 1 完成并已保存。
+2025-06-28 10:52:31,365 - INFO - 所有翻译任务已完成！
+2025-06-28 10:54:58,596 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 10:55:02,157 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 10:55:02,158 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 10:55:02,158 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 10:55:02,158 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:55:02,158 - INFO - 翻译任务启动...
+2025-06-28 10:55:02,191 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 10:55:02,202 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 10:55:02,221 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 10:55:02,243 - DEBUG - 翻译器已初始化。
+2025-06-28 10:55:02,266 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 10:55:02,329 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 10:55:02,329 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 10:55:02,350 - INFO - 文件加载成功，共 20 行。
+2025-06-28 10:55:02,384 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 10:55:02,406 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 10:55:02,453 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 10:55:02,496 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 10:55:02,522 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 10:55:04,785 - DEBUG - 批次 1 翻译结果 (前50字符): ['[HTTP错误 404]', '[HTTP错误 404]', '[HTTP错误 404]', '...
+2025-06-28 10:55:04,785 - DEBUG - 正在写入批次 1 的翻译结果...
+2025-06-28 10:55:04,823 - INFO - 批次 1 完成并已保存。
+2025-06-28 10:55:04,842 - INFO - 所有翻译任务已完成！
+2025-06-28 11:00:11,572 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 11:00:11,572 - INFO - 配置已从 config.json 加载
+2025-06-28 11:00:25,962 - INFO - 配置已保存到: config.json
+2025-06-28 11:00:34,682 - INFO - 已切换到模型: gemini-2.5-falst
+2025-06-28 11:00:39,234 - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 11:00:39,248 - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 11:00:43,971 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 11:00:43,972 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 11:00:43,972 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 11:00:43,972 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 11:00:43,972 - INFO - 翻译任务启动...
+2025-06-28 11:00:43,981 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 11:00:43,982 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 11:00:43,984 - DEBUG - 代理设置: 类型=SOCKS5, 地址=127.0.0.1, 端口=10808
+2025-06-28 11:00:43,994 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 11:00:44,000 - DEBUG - 翻译器已初始化。
+2025-06-28 11:00:44,004 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 11:00:44,015 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 11:00:44,020 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 11:00:44,031 - INFO - 文件加载成功，共 20 行。
+2025-06-28 11:00:44,042 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 11:00:44,047 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:00:44,051 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 11:00:44,062 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 11:00:44,074 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 11:00:46,366 - DEBUG - 批次 1 翻译结果 (前50字符): ['[HTTP错误 404]', '[HTTP错误 404]', '[HTTP错误 404]', '...
+2025-06-28 11:00:46,367 - DEBUG - 正在写入批次 1 的翻译结果...
+2025-06-28 11:00:46,384 - INFO - 批次 1 完成并已保存。
+2025-06-28 11:00:46,391 - INFO - 所有翻译任务已完成！
+2025-06-28 11:01:06,676 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 11:01:06,676 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 11:01:06,676 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 11:01:06,676 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 11:01:06,676 - INFO - 翻译任务启动...
+2025-06-28 11:01:06,717 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 11:01:06,718 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 11:01:06,724 - DEBUG - 代理设置: 类型=SOCKS5, 地址=127.0.0.1, 端口=10808
+2025-06-28 11:01:06,732 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 11:01:06,741 - DEBUG - 翻译器已初始化。
+2025-06-28 11:01:06,749 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 11:01:06,765 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 11:01:06,779 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 11:01:06,801 - INFO - 文件加载成功，共 20 行。
+2025-06-28 11:01:06,824 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 11:01:06,858 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:01:06,884 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 11:01:06,924 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 11:01:06,946 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 11:01:09,129 - DEBUG - 批次 1 翻译结果 (前50字符): ['[HTTP错误 404]', '[HTTP错误 404]', '[HTTP错误 404]', '...
+2025-06-28 11:01:09,130 - DEBUG - 正在写入批次 1 的翻译结果...
+2025-06-28 11:01:09,176 - INFO - 批次 1 完成并已保存。
+2025-06-28 11:01:09,200 - INFO - 所有翻译任务已完成！
+2025-06-28 11:01:22,212 - DEBUG - 当前选中的模型: gemini-2.5-falst
+2025-06-28 11:01:22,213 - DEBUG - API Key (first 5 chars): AIzaS...
+2025-06-28 11:01:22,213 - DEBUG - API URL: https://generativelanguage.googleapis.com
+2025-06-28 11:01:22,213 - DEBUG - Model ID: models/gemini-2.5-flash-preview-05-20
+2025-06-28 11:01:22,213 - INFO - 翻译任务启动...
+2025-06-28 11:01:22,306 - DEBUG - 翻译参数: 文件=C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx, 源列=B, 源行=2, 目标列=G
+2025-06-28 11:01:22,318 - DEBUG - 源语言=俄语, 目标语言=简体中文, 模型名称=gemini-2.5-falst, API地址=https://generativelanguage.googleapis.com, 模型ID=models/gemini-2.5-flash-preview-05-20
+2025-06-28 11:01:22,347 - DEBUG - 代理设置: 类型=SOCKS5, 地址=127.0.0.1, 端口=10808
+2025-06-28 11:01:22,368 - DEBUG - Prompt Template (first 100 chars): 请严格遵循以下要求进行翻译：
+1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。
+2. 保持与原文完全相同的行数，如果某行为空，则在翻译结...
+2025-06-28 11:01:22,388 - DEBUG - 翻译器已初始化。
+2025-06-28 11:01:22,409 - DEBUG - 正在加载Excel工作簿: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 11:01:22,436 - DEBUG - Excel工作簿加载完成。活动工作表: 配件销售分析, 最大行数: 20
+2025-06-28 11:01:22,451 - DEBUG - 源列索引: 2, 目标列索引: 7
+2025-06-28 11:01:22,471 - INFO - 文件加载成功，共 20 行。
+2025-06-28 11:01:22,492 - INFO - 翻译从 B2 开始到 G 列。
+2025-06-28 11:01:22,514 - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:01:22,535 - DEBUG - 正在读取批次 1 的源文本 (行 2-20)...
+2025-06-28 11:01:22,554 - DEBUG - 批次 1 源文本 (前50字符): ['Бампер передний  Jetta VS5', 'Рычаг передний пра...
+2025-06-28 11:01:22,574 - DEBUG - 正在调用API翻译批次 1...
+2025-06-28 11:01:24,816 - DEBUG - 批次 1 翻译结果 (前50字符): ['[HTTP错误 404]', '[HTTP错误 404]', '[HTTP错误 404]', '...
+2025-06-28 11:01:24,816 - DEBUG - 正在写入批次 1 的翻译结果...
+2025-06-28 11:01:24,861 - INFO - 批次 1 完成并已保存。
+2025-06-28 11:01:24,887 - INFO - 所有翻译任务已完成！
+2025-06-28 11:02:03,878 - root - INFO - 配置已从 config.json 加载
+2025-06-28 11:02:03,878 - root - INFO - 应用程序启动成功。
+2025-06-28 11:02:25,546 - root - INFO - 配置已保存到: config.json
+2025-06-28 11:02:30,545 - root - INFO - 配置已保存到: config.json
+2025-06-28 11:02:43,925 - root - INFO - 配置已保存到: config.json
+2025-06-28 11:02:46,422 - root - INFO - 配置已保存到: config.json
+2025-06-28 11:02:53,931 - root - INFO - 翻译任务启动...
+2025-06-28 11:02:53,935 - root - ERROR - 翻译线程发生严重错误: invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 679, in _translation_worker
+    src_row_num = int(self.src_row_var.get())
+ValueError: invalid literal for int() with base 10: ''
+2025-06-28 11:05:32,802 - root - INFO - 配置已从 config.json 加载
+2025-06-28 11:05:32,803 - root - INFO - 应用程序启动成功。
+2025-06-28 11:05:36,594 - root - INFO - 已选择文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 11:05:36,609 - root - INFO - Excel文件已加载到预览。请在预览中左键选择源单元格，右键选择目标列。
+2025-06-28 11:05:49,501 - root - INFO - 配置已保存到: config.json
+2025-06-28 11:05:52,651 - root - INFO - 翻译任务启动...
+2025-06-28 11:05:52,654 - translator - INFO - 已启用代理: SOCKS5://127.0.0.1:10808
+2025-06-28 11:05:52,657 - root - DEBUG - 翻译器已初始化。
+2025-06-28 11:05:52,668 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:05:52,670 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:05:52,672 - translator - DEBUG - 请求目标URL: https://generativelanguage.googleapis.com
+2025-06-28 11:05:52,675 - translator - DEBUG - 请求头 (已隐藏部分密钥): {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer AIzaSyAp..."
+}
+2025-06-28 11:05:52,678 - translator - DEBUG - 请求体 (Payload):
+{
+  "model": "gemini-2.5-flash-preview-05-20",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n"
+    }
+  ],
+  "stream": false
+}
+2025-06-28 11:05:52,684 - translator - DEBUG - 请求代理: {'http': 'socks5://127.0.0.1:10808', 'https': 'socks5://127.0.0.1:10808'}
+2025-06-28 11:05:52,704 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:05:54,922 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST / HTTP/1.1" 404 1561
+2025-06-28 11:05:54,922 - translator - INFO - --- [API响应接收] ---
+2025-06-28 11:05:54,933 - translator - DEBUG - 响应状态码: 404
+2025-06-28 11:05:54,942 - translator - DEBUG - 响应头: {
+  "Date": "Sat, 28 Jun 2025 06:05:54 GMT",
+  "Content-Type": "text/html; charset=UTF-8",
+  "Server": "scaffolding on HTTPServer2",
+  "Content-Length": "1561",
+  "X-XSS-Protection": "0",
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Server-Timing": "gfet4t7; dur=44",
+  "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+2025-06-28 11:05:54,965 - translator - DEBUG - 原始响应体 (Raw Text):
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+2025-06-28 11:05:54,974 - translator - CRITICAL - API请求HTTP错误 (状态码: 404): <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+2025-06-28 11:05:55,056 - root - INFO - 批次 1 完成并已保存。
+2025-06-28 11:05:55,113 - root - INFO - 所有翻译任务已完成！
+2025-06-28 11:11:31,210 - root - INFO - 应用程序启动成功。
+2025-06-28 11:12:05,679 - root - INFO - 配置已保存到: config.json
+2025-06-28 11:12:11,001 - root - INFO - 翻译任务启动...
+2025-06-28 11:12:11,003 - translator - INFO - 已启用代理: SOCKS5://127.0.0.1:10808
+2025-06-28 11:12:11,011 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:12:11,012 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:12:11,013 - translator - DEBUG - 请求目标URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent
+2025-06-28 11:12:11,015 - translator - DEBUG - 请求头 (已隐藏部分密钥): {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer AIzaSyAp..."
+}
+2025-06-28 11:12:11,018 - translator - DEBUG - 请求体 (Payload):
+{
+  "model": "gemini-2.5-falst",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n"
+    }
+  ],
+  "stream": false
+}
+2025-06-28 11:12:11,025 - translator - DEBUG - 请求代理: {'http': 'socks5://127.0.0.1:10808', 'https': 'socks5://127.0.0.1:10808'}
+2025-06-28 11:12:11,044 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:12:13,279 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash-latest:generateContent HTTP/1.1" 401 None
+2025-06-28 11:12:13,280 - translator - INFO - --- [API响应接收] ---
+2025-06-28 11:12:13,302 - translator - DEBUG - 响应状态码: 401
+2025-06-28 11:12:13,323 - translator - DEBUG - 响应头: {
+  "WWW-Authenticate": "Bearer realm=\"https://accounts.google.com/\", error=\"invalid_token\"",
+  "Vary": "Origin, X-Origin, Referer",
+  "Content-Type": "application/json; charset=UTF-8",
+  "Content-Encoding": "gzip",
+  "Date": "Sat, 28 Jun 2025 06:12:12 GMT",
+  "Server": "scaffolding on HTTPServer2",
+  "X-XSS-Protection": "0",
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Server-Timing": "gfet4t7; dur=102",
+  "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "Transfer-Encoding": "chunked"
+}
+2025-06-28 11:12:13,342 - translator - DEBUG - 原始响应体 (Raw Text):
+{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "status": "UNAUTHENTICATED"
+  }
+}
+
+2025-06-28 11:12:13,367 - translator - CRITICAL - API请求HTTP错误 (状态码: 401): {
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "status": "UNAUTHENTICATED"
+  }
+}
+
+2025-06-28 11:12:13,387 - root - INFO - 批次 1 完成并已保存。
+2025-06-28 11:12:13,417 - root - INFO - 所有翻译任务已完成！
+2025-06-28 11:14:51,004 - root - INFO - 配置已保存到: config.json
+2025-06-28 11:14:54,437 - root - INFO - 翻译任务启动...
+2025-06-28 11:14:54,479 - translator - INFO - 已启用代理: SOCKS5://127.0.0.1:10808
+2025-06-28 11:14:54,523 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:14:54,523 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:14:54,547 - translator - DEBUG - 请求目标URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+2025-06-28 11:14:54,587 - translator - DEBUG - 请求头 (已隐藏部分密钥): {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer AIzaSyAp..."
+}
+2025-06-28 11:14:54,629 - translator - DEBUG - 请求体 (Payload):
+{
+  "model": "gemini-2.5-falst",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n"
+    }
+  ],
+  "stream": false
+}
+2025-06-28 11:14:54,674 - translator - DEBUG - 请求代理: {'http': 'socks5://127.0.0.1:10808', 'https': 'socks5://127.0.0.1:10808'}
+2025-06-28 11:14:54,723 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:14:56,990 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-2.5-flash:generateContent HTTP/1.1" 401 None
+2025-06-28 11:14:56,990 - translator - INFO - --- [API响应接收] ---
+2025-06-28 11:14:57,036 - translator - DEBUG - 响应状态码: 401
+2025-06-28 11:14:57,065 - translator - DEBUG - 响应头: {
+  "WWW-Authenticate": "Bearer realm=\"https://accounts.google.com/\", error=\"invalid_token\"",
+  "Vary": "Origin, X-Origin, Referer",
+  "Content-Type": "application/json; charset=UTF-8",
+  "Content-Encoding": "gzip",
+  "Date": "Sat, 28 Jun 2025 06:14:56 GMT",
+  "Server": "scaffolding on HTTPServer2",
+  "X-XSS-Protection": "0",
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Server-Timing": "gfet4t7; dur=47",
+  "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "Transfer-Encoding": "chunked"
+}
+2025-06-28 11:14:57,096 - translator - DEBUG - 原始响应体 (Raw Text):
+{
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "status": "UNAUTHENTICATED"
+  }
+}
+
+2025-06-28 11:14:57,120 - translator - CRITICAL - API请求HTTP错误 (状态码: 401): {
+  "error": {
+    "code": 401,
+    "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "status": "UNAUTHENTICATED"
+  }
+}
+
+2025-06-28 11:14:57,168 - root - INFO - 批次 1 完成并已保存。
+2025-06-28 11:14:57,203 - root - INFO - 所有翻译任务已完成！
+2025-06-28 11:20:48,148 - root - INFO - 已选择AI模型配置: 'gemini-2.5-falst'
+2025-06-28 11:20:48,154 - root - INFO - 应用程序启动成功。
+2025-06-28 11:25:47,453 - root - INFO - 已选择AI模型配置: 'gemini-2.5-falst'
+2025-06-28 11:25:47,454 - root - INFO - 应用程序启动成功。
+2025-06-28 11:25:57,733 - root - INFO - 已选择AI模型配置: 'gemini-2.5-falst'
+2025-06-28 11:25:57,734 - root - INFO - 应用程序启动成功。
+2025-06-28 11:26:09,163 - root - INFO - 已选择AI模型配置: 'gemini-2.5-falst'
+2025-06-28 11:26:09,164 - root - INFO - 应用程序启动成功。
+2025-06-28 11:28:18,015 - root - INFO - 已选择AI模型配置: 'gemini-2.5-falst'
+2025-06-28 11:28:18,016 - root - INFO - 应用程序启动成功。
+2025-06-28 11:30:50,403 - root - INFO - 已选择AI模型配置: 'gemini-2.5-falst'
+2025-06-28 11:30:50,404 - root - INFO - 应用程序启动成功。
+2025-06-28 11:31:28,473 - root - INFO - 翻译任务启动...
+2025-06-28 11:31:28,474 - translator - INFO - 翻译器已在 [Gemini] 模式下初始化。
+2025-06-28 11:31:28,483 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:31:28,483 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:31:28,485 - translator - DEBUG - 请求模式: Gemini
+2025-06-28 11:31:28,485 - translator - DEBUG - 请求目标URL: https://generativelanguage.googleapis.com/v1beta/models/models/gemini-2.5-flash-preview-05-20:generateContent
+2025-06-28 11:31:28,489 - translator - DEBUG - 请求头: {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "x-goog-api-key": "AIzaSyApR87B7yrpsmnomXAT3JAUK--pmTTRw8Y"
+}
+2025-06-28 11:31:28,501 - translator - DEBUG - 请求体 (Payload):
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n\n\n"
+        }
+      ]
+    }
+  ]
+}
+2025-06-28 11:31:28,505 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:31:30,671 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/models/gemini-2.5-flash-preview-05-20:generateContent HTTP/1.1" 404 0
+2025-06-28 11:31:30,671 - translator - INFO - --- [API响应接收] ---
+2025-06-28 11:31:30,694 - translator - DEBUG - 响应状态码: 404
+2025-06-28 11:31:30,716 - translator - DEBUG - 原始响应体 (Raw Text):
+
+2025-06-28 11:31:30,737 - translator - CRITICAL - API请求HTTP错误 (状态码: 404): 
+2025-06-28 11:31:30,755 - root - INFO - 批次 1 完成并已保存。
+2025-06-28 11:31:38,206 - root - INFO - 翻译任务启动...
+2025-06-28 11:31:38,207 - translator - INFO - 翻译器已在 [Gemini] 模式下初始化。
+2025-06-28 11:31:38,261 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:31:38,261 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:31:38,284 - translator - DEBUG - 请求模式: Gemini
+2025-06-28 11:31:38,293 - translator - DEBUG - 请求目标URL: https://generativelanguage.googleapis.com/v1beta/models/models/gemini-2.5-flash-preview-05-20:generateContent
+2025-06-28 11:31:38,302 - translator - DEBUG - 请求头: {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "x-goog-api-key": "AIzaSyApR87B7yrpsmnomXAT3JAUK--pmTTRw8Y"
+}
+2025-06-28 11:31:38,329 - translator - DEBUG - 请求体 (Payload):
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n\n\n"
+        }
+      ]
+    }
+  ]
+}
+2025-06-28 11:31:38,371 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:31:40,633 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/models/gemini-2.5-flash-preview-05-20:generateContent HTTP/1.1" 404 0
+2025-06-28 11:31:40,633 - translator - INFO - --- [API响应接收] ---
+2025-06-28 11:31:40,686 - translator - DEBUG - 响应状态码: 404
+2025-06-28 11:31:40,765 - translator - DEBUG - 原始响应体 (Raw Text):
+
+2025-06-28 11:31:40,821 - translator - CRITICAL - API请求HTTP错误 (状态码: 404): 
+2025-06-28 11:31:40,901 - root - INFO - 批次 1 完成并已保存。
+2025-06-28 11:32:43,064 - root - INFO - 已选择AI模型配置: 'deepseek'
+2025-06-28 11:32:44,545 - root - INFO - 翻译任务启动...
+2025-06-28 11:32:44,546 - translator - INFO - 翻译器已在 [自定义] 模式下初始化。
+2025-06-28 11:32:44,650 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:32:44,650 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:32:44,692 - translator - DEBUG - 请求模式: Custom
+2025-06-28 11:32:44,748 - translator - DEBUG - 请求目标URL: https://api.deepseek.com
+2025-06-28 11:32:44,790 - translator - DEBUG - 请求头: {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer sk-71c55240767b43a2b8a5797961aca33f"
+}
+2025-06-28 11:32:44,816 - translator - DEBUG - 请求体 (Payload):
+{
+  "model": "deepseek-chat",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ],
+  "stream": false
+}
+2025-06-28 11:32:44,856 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-06-28 11:32:45,360 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST / HTTP/1.1" 404 None
+2025-06-28 11:32:45,361 - translator - INFO - --- [API响应接收] ---
+2025-06-28 11:32:45,423 - translator - DEBUG - 响应状态码: 404
+2025-06-28 11:32:45,471 - translator - DEBUG - 原始响应体 (Raw Text):
+{
+  "error_msg": "Not Found. Please check the configuration."
+}
+2025-06-28 11:32:45,538 - translator - CRITICAL - API请求HTTP错误 (状态码: 404): {
+  "error_msg": "Not Found. Please check the configuration."
+}
+2025-06-28 11:32:45,618 - root - INFO - 批次 1 完成并已保存。
+2025-06-28 11:37:46,706 - root - INFO - ЯИ моделе конфигурациясе сайланды: '测试'
+2025-06-28 11:37:46,707 - root - INFO - Программа уңышлы эшләп китте.
+2025-06-28 11:38:08,188 - root - INFO - Тәрҗемә эше башлана...
+2025-06-28 11:38:08,190 - translator - INFO - Переводчик инициализирован в режиме [Gemini].
+2025-06-28 11:38:08,200 - root - INFO - Пакет 1 эшкәртелә (юллар 2-20)...
+2025-06-28 11:38:08,200 - translator - INFO - --- [Начало запроса к API] ---
+2025-06-28 11:38:08,202 - translator - DEBUG - Режим запроса: Gemini
+2025-06-28 11:38:08,208 - translator - DEBUG - URL запроса: https://generativelanguage.googleapis.com/v1beta/models/models/gemini-2.5-flash-preview-05-20:generateContent
+2025-06-28 11:38:08,211 - translator - DEBUG - Заголовки запроса: {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "x-goog-api-key": "AIzaSyApR87B7yrpsmnomXAT3JAUK--pmTTRw8Y"
+}
+2025-06-28 11:38:08,217 - translator - DEBUG - Тело запроса (Payload):
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n\n\n\n"
+        }
+      ]
+    }
+  ]
+}
+2025-06-28 11:38:08,221 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:38:10,357 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/models/gemini-2.5-flash-preview-05-20:generateContent HTTP/1.1" 404 0
+2025-06-28 11:38:10,358 - translator - INFO - --- [Ответ от API получен] ---
+2025-06-28 11:38:10,370 - translator - DEBUG - Код состояния ответа: 404
+2025-06-28 11:38:10,380 - translator - DEBUG - Исходный текст ответа (Raw Text):
+
+2025-06-28 11:38:10,389 - translator - CRITICAL - Ошибка HTTP при запросе к API (код состояния: 404): 
+2025-06-28 11:38:10,425 - root - INFO - Пакет 1 тәмамланды һәм сакланды.
+2025-06-28 11:47:29,725 - root - INFO - AI模型配置已选择: '测试'
+2025-06-28 11:47:29,725 - root - INFO - 应用程序启动成功。
+2025-06-28 11:49:02,679 - root - INFO - AI模型配置已选择: 'Gemini-测试'
+2025-06-28 11:49:15,524 - root - INFO - 翻译任务启动...
+2025-06-28 11:49:15,526 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 11:49:15,536 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:49:15,536 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:49:15,536 - translator - DEBUG - 请求模式: Gemini
+2025-06-28 11:49:15,537 - translator - DEBUG - 请求目标URL: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+2025-06-28 11:49:15,539 - translator - DEBUG - 请求头: {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer AIzaSyApR87B7yrpsmnomXAT3JAUK--pmTTRw8Y"
+}
+2025-06-28 11:49:15,560 - translator - DEBUG - 请求体 (Payload):
+{
+  "model": "gemini-1.5-pro-latest",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ],
+  "stream": false,
+  "temperature": 0.1
+}
+2025-06-28 11:49:15,567 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:49:17,833 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 11:49:17,834 - translator - INFO - --- [API响应已接收] ---
+2025-06-28 11:49:17,856 - translator - DEBUG - 响应状态码: 429
+2025-06-28 11:49:17,865 - translator - DEBUG - 原始响应体 (Raw Text):
+[{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-1.5-pro",
+              "location": "global"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "42s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 11:49:17,885 - root - ERROR - 翻译线程发生严重错误: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\translator.py", line 98, in translate_batch
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 660, in _translation_worker
+    translated = self.translator.translate_batch(sources, prompt_template, source_language, target_language)
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\translator.py", line 118, in translate_batch
+    error_details = e.response.json().get('error', {}).get('message', e.response.text)
+                    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-06-28 11:52:16,585 - root - INFO - AI模型配置已选择: 'Gemini-测试'
+2025-06-28 11:52:16,586 - root - INFO - 应用程序启动成功。
+2025-06-28 11:52:51,750 - root - INFO - AI模型配置已选择: '测试'
+2025-06-28 11:53:04,957 - root - INFO - 翻译任务启动...
+2025-06-28 11:53:04,959 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 11:53:04,967 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:53:04,968 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:53:04,968 - translator - DEBUG - 请求模式: Gemini
+2025-06-28 11:53:04,969 - translator - DEBUG - 请求目标URL: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+2025-06-28 11:53:04,971 - translator - DEBUG - 请求头: {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer AIzaSyApR87B7yrpsmnomXAT3JAUK--pmTTRw8Y"
+}
+2025-06-28 11:53:04,977 - translator - DEBUG - 请求体 (Payload):
+{
+  "model": "gemini-1.5-pro-latest",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ],
+  "stream": false,
+  "temperature": 0.1
+}
+2025-06-28 11:53:04,982 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:53:07,236 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 11:53:07,237 - translator - INFO - --- [API响应已接收] ---
+2025-06-28 11:53:07,261 - translator - DEBUG - 响应状态码: 429
+2025-06-28 11:53:07,281 - translator - DEBUG - 原始响应体 (Raw Text):
+[{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "53s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 11:53:07,289 - root - ERROR - 翻译线程发生严重错误: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\translator.py", line 98, in translate_batch
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 659, in _translation_worker
+    translated = self.translator.translate_batch(sources, prompt_template, source_language, target_language)
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\translator.py", line 118, in translate_batch
+    error_details = e.response.json().get('error', {}).get('message', e.response.text)
+                    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-06-28 11:53:17,466 - root - INFO - 翻译任务启动...
+2025-06-28 11:53:17,467 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 11:53:17,517 - root - INFO - 正在处理批次 1 (行 2-20)...
+2025-06-28 11:53:17,518 - translator - INFO - --- [API请求开始] ---
+2025-06-28 11:53:17,534 - translator - DEBUG - 请求模式: Gemini
+2025-06-28 11:53:17,563 - translator - DEBUG - 请求目标URL: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+2025-06-28 11:53:17,594 - translator - DEBUG - 请求头: {
+  "User-Agent": "python-requests/2.32.3",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept": "*/*",
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer AIzaSyApR87B7yrpsmnomXAT3JAUK--pmTTRw8Y"
+}
+2025-06-28 11:53:17,627 - translator - DEBUG - 请求体 (Payload):
+{
+  "model": "gemini-1.5-pro-latest",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【俄语】逐行翻译成【简体中文】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\nБампер передний  Jetta VS5\nРычаг передний правый  Jetta VS5   оригинал\nКРЫЛО ПЕРЕДНЕЕ правое Jetta VA3\nДефлектор радиатора охлаждения двигателя правый, клипса крепления  оригинал\nПодкрылок передний правый Geely Emgrand 7 New SS11\n\"Патрубок L7 (L8, L9)аналог\"\nЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С ОБОГРЕВОМ\n3адний противотуманный фонарь в сборе\nКорпус левого дневного ходового огня\nДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО БАМПЕРА ПРАВАЯ T19C\nПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C\nУСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18/T1A/T1D\nРЕШЕТКА БАМПЕРА ПЕРЕДНЕГО\nРЕШЕТКА РАДИАТОРА\nРЕШЁТКА РАДИАТОРА T19FL\nВерхняя решётка переднего бампера   серый\nРадиатор кондиционера Chery Tiggo 4\n\n\n---批量翻译结束---\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ],
+  "stream": false,
+  "temperature": 0.1
+}
+2025-06-28 11:53:17,646 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 11:53:19,855 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 11:53:19,855 - translator - INFO - --- [API响应已接收] ---
+2025-06-28 11:53:19,908 - translator - DEBUG - 响应状态码: 429
+2025-06-28 11:53:19,941 - translator - DEBUG - 原始响应体 (Raw Text):
+[{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "40s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 11:53:19,973 - root - ERROR - 翻译线程发生严重错误: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\translator.py", line 98, in translate_batch
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 659, in _translation_worker
+    translated = self.translator.translate_batch(sources, prompt_template, source_language, target_language)
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\translator.py", line 118, in translate_batch
+    error_details = e.response.json().get('error', {}).get('message', e.response.text)
+                    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-06-28 11:57:27,095 - root - INFO - AI模型配置已选择: '测试'
+2025-06-28 11:57:27,096 - root - INFO - 应用程序启动成功。
+2025-06-28 11:57:36,004 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2025-06-28 11:57:37,655 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET /generate_204 HTTP/1.1" 204 0
+2025-06-28 11:57:46,257 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2025-06-28 11:57:48,299 - socks - DEBUG - Error connecting to SOCKS5 proxy 127.0.0.1:1088 due to: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2025-06-28 11:57:53,277 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2025-06-28 11:57:54,900 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET /generate_204 HTTP/1.1" 204 0
+2025-06-28 12:19:07,948 - root - INFO - AI模型配置已选择: '测试'
+2025-06-28 12:19:07,952 - root - INFO - 应用程序启动成功。
+2025-06-28 12:19:31,441 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2025-06-28 12:19:33,050 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET /generate_204 HTTP/1.1" 204 0
+2025-06-28 12:19:36,270 - root - INFO - 配置已保存到 config.json
+2025-06-28 12:19:37,426 - root - INFO - 翻译任务启动...
+2025-06-28 12:19:37,427 - translator - INFO - 翻译器已配置代理: socks5://127.0.0.1:10808
+2025-06-28 12:19:37,428 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 12:19:37,439 - root - INFO - 共找到 17 个非空单元格准备翻译。
+2025-06-28 12:19:37,444 - translator - INFO - --- [开始翻译] (行 1/17): 'Бампер передний  Jetta VS5...' 
+2025-06-28 12:19:37,446 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 12:19:39,646 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:39,648 - translator - CRITICAL - 翻译行 1 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-1.5-pro",
+              "location": "global"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "20s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:40,650 - translator - INFO - --- [开始翻译] (行 2/17): 'Рычаг передний правый  Jetta V...' 
+2025-06-28 12:19:41,255 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:41,256 - translator - CRITICAL - 翻译行 2 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "19s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:42,263 - translator - INFO - --- [开始翻译] (行 3/17): 'КРЫЛО ПЕРЕДНЕЕ правое Jetta VA...' 
+2025-06-28 12:19:42,861 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:42,862 - translator - CRITICAL - 翻译行 3 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "17s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:43,868 - translator - INFO - --- [开始翻译] (行 4/17): 'Дефлектор радиатора охлаждения...' 
+2025-06-28 12:19:44,471 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:44,475 - translator - CRITICAL - 翻译行 4 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "15s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:45,483 - translator - INFO - --- [开始翻译] (行 5/17): 'Подкрылок передний правый Geel...' 
+2025-06-28 12:19:46,086 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:46,092 - translator - CRITICAL - 翻译行 5 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-1.5-pro",
+              "location": "global"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "14s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:47,098 - translator - INFO - --- [开始翻译] (行 6/17): '"Патрубок L7 (L8, L9)аналог"...' 
+2025-06-28 12:19:47,701 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:47,701 - translator - CRITICAL - 翻译行 6 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "12s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:48,714 - translator - INFO - --- [开始翻译] (行 7/17): 'ЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С...' 
+2025-06-28 12:19:49,305 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:49,306 - translator - CRITICAL - 翻译行 7 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-1.5-pro",
+              "location": "global"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "11s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:50,317 - translator - INFO - --- [开始翻译] (行 8/17): '3адний противотуманный фонарь ...' 
+2025-06-28 12:19:50,905 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:50,905 - translator - CRITICAL - 翻译行 8 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "9s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:51,911 - translator - INFO - --- [开始翻译] (行 9/17): 'Корпус левого дневного ходовог...' 
+2025-06-28 12:19:52,503 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:52,504 - translator - CRITICAL - 翻译行 9 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "7s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:53,510 - translator - INFO - --- [开始翻译] (行 10/17): 'ДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО ...' 
+2025-06-28 12:19:54,101 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:54,106 - translator - CRITICAL - 翻译行 10 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "6s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:55,113 - translator - INFO - --- [开始翻译] (行 11/17): 'ПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C...' 
+2025-06-28 12:19:55,697 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:55,701 - translator - CRITICAL - 翻译行 11 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-1.5-pro",
+              "location": "global"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "4s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:56,709 - translator - INFO - --- [开始翻译] (行 12/17): 'УСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18...' 
+2025-06-28 12:19:57,296 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:57,297 - translator - CRITICAL - 翻译行 12 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "3s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:58,308 - translator - INFO - --- [开始翻译] (行 13/17): 'РЕШЕТКА БАМПЕРА ПЕРЕДНЕГО...' 
+2025-06-28 12:19:58,896 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:19:58,903 - translator - CRITICAL - 翻译行 13 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-1.5-pro",
+              "location": "global"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "1s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:19:59,908 - translator - INFO - --- [开始翻译] (行 14/17): 'РЕШЕТКА РАДИАТОРА...' 
+2025-06-28 12:20:00,496 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:20:00,502 - translator - CRITICAL - 翻译行 14 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "59s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:20:01,510 - translator - INFO - --- [开始翻译] (行 15/17): 'РЕШЁТКА РАДИАТОРА T19FL...' 
+2025-06-28 12:20:02,095 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:20:02,096 - translator - CRITICAL - 翻译行 15 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "58s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:20:03,107 - translator - INFO - --- [开始翻译] (行 16/17): 'Верхняя решётка переднего бамп...' 
+2025-06-28 12:20:03,696 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:20:03,701 - translator - CRITICAL - 翻译行 16 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-1.5-pro",
+              "location": "global"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "56s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:20:04,703 - translator - INFO - --- [开始翻译] (行 17/17): 'Радиатор кондиционера Chery Ti...' 
+2025-06-28 12:20:05,285 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 429 None
+2025-06-28 12:20:05,286 - translator - CRITICAL - 翻译行 17 失败: [HTTP错误 429]: [{
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-1.5-pro"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "55s"
+      }
+    ]
+  }
+}
+]
+2025-06-28 12:20:05,306 - root - INFO - 翻译完成并成功保存到文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 12:36:40,065 - root - INFO - AI模型配置已选择: '测试'
+2025-06-28 12:36:40,066 - root - INFO - 应用程序启动成功。
+2025-06-28 12:37:12,852 - translator - INFO - 正在通过代理 127.0.0.1:10808 获取模型列表...
+2025-06-28 12:37:12,855 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 12:37:15,064 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/openai/models HTTP/1.1" 200 None
+2025-06-28 12:37:15,065 - translator - INFO - 成功获取到 43 个Gemini模型。
+2025-06-28 12:37:22,654 - translator - INFO - 正在通过代理 127.0.0.1:10808 获取模型列表...
+2025-06-28 12:37:22,655 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 12:37:24,871 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/openai/models HTTP/1.1" 200 None
+2025-06-28 12:37:24,873 - translator - INFO - 成功获取到 43 个Gemini模型。
+2025-06-28 12:43:07,566 - root - INFO - AI模型配置已选择: '测试'
+2025-06-28 12:43:07,570 - root - INFO - 应用程序启动成功。
+2025-06-28 12:43:18,193 - translator - INFO - 正在通过代理 127.0.0.1:10808 获取模型列表...
+2025-06-28 12:43:18,196 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 12:43:20,427 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/openai/models HTTP/1.1" 200 None
+2025-06-28 12:43:20,428 - translator - INFO - 成功获取到 43 个Gemini模型。
+2025-06-28 12:43:29,918 - root - INFO - 配置已保存到 config.json
+2025-06-28 12:43:35,775 - root - INFO - 配置已保存到 config.json
+2025-06-28 12:43:38,800 - root - INFO - 配置已保存到 config.json
+2025-06-28 12:43:38,800 - root - INFO - AI模型配置已选择: '123'
+2025-06-28 12:43:50,030 - root - INFO - 翻译任务启动...
+2025-06-28 12:43:50,031 - translator - INFO - 翻译器已配置代理: socks5://127.0.0.1:10808
+2025-06-28 12:43:50,033 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 12:43:50,044 - root - INFO - 共找到 17 个非空单元格准备翻译。
+2025-06-28 12:43:50,048 - translator - INFO - --- [开始翻译] (行 1/17): 'Бампер передний  Jetta VS5...'
+2025-06-28 12:43:50,052 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 12:43:55,224 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:43:55,225 - translator - INFO - --- [翻译成功] (行 1/17): '前保险杠 捷达VS5...'
+2025-06-28 12:43:57,235 - translator - INFO - --- [开始翻译] (行 2/17): 'Рычаг передний правый  Jetta V...'
+2025-06-28 12:43:59,859 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:43:59,860 - translator - INFO - --- [翻译成功] (行 2/17): '前右控制臂 捷达VS5 原厂...'
+2025-06-28 12:44:01,869 - translator - INFO - --- [开始翻译] (行 3/17): 'КРЫЛО ПЕРЕДНЕЕ правое Jetta VA...'
+2025-06-28 12:44:03,854 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:03,855 - translator - INFO - --- [翻译成功] (行 3/17): '右前翼子板 Jetta VA3...'
+2025-06-28 12:44:05,871 - translator - INFO - --- [开始翻译] (行 4/17): 'Дефлектор радиатора охлаждения...'
+2025-06-28 12:44:08,437 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:08,441 - translator - INFO - --- [翻译成功] (行 4/17): '发动机冷却散热器右导流板，固定夹 原厂...'
+2025-06-28 12:44:10,456 - translator - INFO - --- [开始翻译] (行 5/17): 'Подкрылок передний правый Geel...'
+2025-06-28 12:44:16,617 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:16,618 - translator - INFO - --- [翻译成功] (行 5/17): '右前轮衬 Geely Emgrand 7 New SS11...'
+2025-06-28 12:44:18,628 - translator - INFO - --- [开始翻译] (行 6/17): '"Патрубок L7 (L8, L9)аналог"...'
+2025-06-28 12:44:20,304 - root - INFO - 配置已保存到 config.json
+2025-06-28 12:44:25,685 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:25,685 - translator - INFO - --- [翻译成功] (行 6/17): '管接头 L7 (L8, L9) 模拟...'
+2025-06-28 12:44:27,710 - translator - INFO - --- [开始翻译] (行 7/17): 'ЗЕРКАЛО ПРАВОЕ ЭЛЕКТРИЧЕСКОЕ С...'
+2025-06-28 12:44:31,096 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:31,098 - translator - INFO - --- [翻译成功] (行 7/17): '右侧电动加热后视镜...'
+2025-06-28 12:44:33,111 - translator - INFO - --- [开始翻译] (行 8/17): '3адний противотуманный фонарь ...'
+2025-06-28 12:44:36,335 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:36,335 - translator - INFO - --- [翻译成功] (行 8/17): '后雾灯总成...'
+2025-06-28 12:44:38,369 - translator - INFO - --- [开始翻译] (行 9/17): 'Корпус левого дневного ходовог...'
+2025-06-28 12:44:41,087 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:41,090 - translator - INFO - --- [翻译成功] (行 9/17): '左侧日间行车灯壳体...'
+2025-06-28 12:44:43,102 - translator - INFO - --- [开始翻译] (行 10/17): 'ДЕКОРАТИВНАЯ НАКЛАДКА ЗАДНЕГО ...'
+2025-06-28 12:44:47,308 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:47,308 - translator - INFO - --- [翻译成功] (行 10/17): '后保险杠装饰盖板 右 T19C...'
+2025-06-28 12:44:49,342 - translator - INFO - --- [开始翻译] (行 11/17): 'ПЛИТА ОПОРНАЯ ЗАДНЯЯ T19C...'
+2025-06-28 12:44:53,177 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:53,183 - translator - INFO - --- [翻译成功] (行 11/17): '后支撑板 T19C...'
+2025-06-28 12:44:55,238 - translator - INFO - --- [开始翻译] (行 12/17): 'УСИЛИТЕЛЬ БАМПЕРА ПЕРЕДНИЙ T18...'
+2025-06-28 12:44:59,391 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:44:59,393 - translator - INFO - --- [翻译成功] (行 12/17): '前保险杠加强件 T18/T1A/T1D...'
+2025-06-28 12:45:01,456 - translator - INFO - --- [开始翻译] (行 13/17): 'РЕШЕТКА БАМПЕРА ПЕРЕДНЕГО...'
+2025-06-28 12:45:06,896 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:45:06,899 - translator - INFO - --- [翻译成功] (行 13/17): '前保险杠格栅...'
+2025-06-28 12:45:08,936 - translator - INFO - --- [开始翻译] (行 14/17): 'РЕШЕТКА РАДИАТОРА...'
+2025-06-28 12:45:11,035 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:45:11,036 - translator - INFO - --- [翻译成功] (行 14/17): '散热器格栅...'
+2025-06-28 12:45:13,099 - translator - INFO - --- [开始翻译] (行 15/17): 'РЕШЁТКА РАДИАТОРА T19FL...'
+2025-06-28 12:45:16,642 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:45:16,643 - translator - INFO - --- [翻译成功] (行 15/17): '散热器格栅 T19FL...'
+2025-06-28 12:45:18,682 - translator - INFO - --- [开始翻译] (行 16/17): 'Верхняя решётка переднего бамп...'
+2025-06-28 12:45:23,288 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:45:23,288 - translator - INFO - --- [翻译成功] (行 16/17): '前保险杠上格栅 灰色...'
+2025-06-28 12:45:25,402 - translator - INFO - --- [开始翻译] (行 17/17): 'Радиатор кондиционера Chery Ti...'
+2025-06-28 12:45:28,969 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 12:45:28,973 - translator - INFO - --- [翻译成功] (行 17/17): '奇瑞瑞虎4空调冷凝器...'
+2025-06-28 12:45:29,199 - root - INFO - 翻译完成并成功保存到文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/销售统计表格/5-16销售统计.xlsx
+2025-06-28 12:50:25,620 - root - INFO - AI模型配置已选择: '123'
+2025-06-28 12:50:25,621 - root - INFO - 应用程序启动成功。
+2025-06-28 12:50:50,278 - translator - INFO - 正在通过代理 127.0.0.1:10808 获取模型列表...
+2025-06-28 12:50:50,281 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 12:50:52,485 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/openai/models HTTP/1.1" 200 None
+2025-06-28 12:50:52,487 - translator - INFO - 成功获取到 43 个Gemini模型。
+2025-06-28 12:51:12,288 - root - INFO - 配置已保存到 config.json
+2025-06-28 12:51:28,977 - root - INFO - 配置已保存到 config.json
+2025-06-28 12:59:09,272 - root - INFO - AI模型配置已选择: '123'
+2025-06-28 12:59:09,272 - root - INFO - 应用程序启动成功。
+2025-06-28 12:59:30,167 - translator - INFO - 成功获取到DeepSeek的静态模型列表。
+2025-06-28 12:59:35,034 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:00:09,874 - root - INFO - AI模型配置已选择: 'dp'
+2025-06-28 13:00:16,262 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:00:17,334 - root - INFO - 翻译任务启动...
+2025-06-28 13:00:17,334 - translator - INFO - 翻译器已在 [DeepSeek模式]下初始化。
+2025-06-28 13:00:17,344 - root - INFO - 共找到 12 行文本准备翻译。
+2025-06-28 13:00:17,344 - root - INFO - 正在处理批次 (行 1-12)...
+2025-06-28 13:00:17,345 - translator - INFO - --- [开始批量翻译] (12 行) ---
+2025-06-28 13:00:17,350 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-06-28 13:00:18,059 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST /chat/completions HTTP/1.1" 200 None
+2025-06-28 13:00:24,927 - translator - ERROR - [翻译结果行数校验失败] 预期 12 行, 收到 8 行。
+2025-06-28 13:00:24,936 - root - INFO - 批次 (行 1-12) 完成并已保存。
+2025-06-28 13:00:25,940 - root - INFO - 所有翻译任务完成并成功保存到文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/奇瑞车型-VIN码收集.xlsx
+2025-06-28 13:00:56,257 - root - INFO - AI模型配置已选择: '123'
+2025-06-28 13:00:57,836 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:00:58,405 - root - INFO - 翻译任务启动...
+2025-06-28 13:00:58,406 - translator - INFO - 翻译器已配置代理: socks5://127.0.0.1:10808
+2025-06-28 13:00:58,409 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 13:00:58,424 - root - INFO - 共找到 12 行文本准备翻译。
+2025-06-28 13:00:58,432 - root - INFO - 正在处理批次 (行 1-12)...
+2025-06-28 13:00:58,433 - translator - INFO - --- [开始批量翻译] (12 行) ---
+2025-06-28 13:00:58,440 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 13:01:07,456 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 13:01:07,457 - translator - ERROR - [翻译结果行数校验失败] 预期 12 行, 收到 8 行。
+2025-06-28 13:01:07,475 - root - INFO - 批次 (行 1-12) 完成并已保存。
+2025-06-28 13:01:08,481 - root - INFO - 所有翻译任务完成并成功保存到文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/奇瑞车型-VIN码收集.xlsx
+2025-06-28 13:09:09,125 - root - INFO - 未找到配置文件，创建默认配置。
+2025-06-28 13:09:09,127 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:09:09,127 - root - INFO - AI模型配置已选择: ''
+2025-06-28 13:09:09,132 - root - INFO - 应用程序启动成功。
+2025-06-28 13:09:57,651 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:10:00,151 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2025-06-28 13:10:06,374 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:10:07,980 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2025-06-28 13:10:09,556 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET /generate_204 HTTP/1.1" 204 0
+2025-06-28 13:10:47,194 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 13:10:49,363 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/openai/models HTTP/1.1" 400 None
+2025-06-28 13:10:49,365 - translator - ERROR - 获取Gemini模型列表失败: HTTP 400: API key not valid. Please pass a valid API key.
+2025-06-28 13:10:49,368 - root - ERROR - 获取 Gemini 模型列表失败: 获取Gemini模型列表失败: HTTP 400: API key not valid. Please pass a valid API key.
+2025-06-28 13:11:00,856 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 13:11:03,069 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/openai/models HTTP/1.1" 200 None
+2025-06-28 13:11:03,077 - translator - INFO - 成功获取到 43 个Gemini模型。
+2025-06-28 13:11:15,189 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:11:24,498 - root - INFO - AI模型配置已选择: 'gemini'
+2025-06-28 13:11:29,004 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:11:29,546 - root - INFO - 翻译任务启动...
+2025-06-28 13:11:29,553 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 13:11:29,581 - root - INFO - 共找到 12 行文本准备翻译。
+2025-06-28 13:11:29,587 - root - INFO - 正在处理批次 (行 1-12)...
+2025-06-28 13:11:29,593 - translator - INFO - --- [开始批量翻译] (12 行) ---
+2025-06-28 13:11:29,599 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 13:11:32,266 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 13:11:32,266 - translator - ERROR - [翻译结果行数校验失败] 预期 12 行, 收到 10 行。
+2025-06-28 13:11:32,279 - translator - DEBUG - 原始返回内容: 艾瑞泽8_2022|||---|||艾瑞泽8_2023|||---|||X70PLUS【CX62B/C/D/PR0/F18】|||---|||X-1【大圣/JX65/F16/EV】|||---|||T1EJ【探索06】|||---|||M1DFL2【艾瑞泽5 PLUS】俄罗斯是Omoda S5|||---|||T18【瑞虎8】|||---|||T1E【全新一代瑞虎7】|||---|||||---|||||---|||||---|||
+2025-06-28 13:11:32,295 - root - ERROR - 翻译线程发生严重错误: [Errno 13] Permission denied: 'C:/Users/68783/Desktop/Laotiggo/客户与销售/奇瑞车型-VIN码收集.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 781, in _translation_worker
+    workbook.save(file_path)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/Users/68783/Desktop/Laotiggo/客户与销售/奇瑞车型-VIN码收集.xlsx'
+2025-06-28 13:35:17,678 - root - INFO - AI模型配置已选择: 'gemini'
+2025-06-28 13:35:17,683 - root - INFO - 应用程序启动成功。
+2025-06-28 13:37:05,040 - root - INFO - 配置已保存到 config.json
+2025-06-28 13:37:10,680 - root - INFO - 翻译任务启动...
+2025-06-28 13:37:10,682 - translator - INFO - 翻译器已配置代理: socks5://127.0.0.1:10808
+2025-06-28 13:37:10,684 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 13:37:10,694 - root - INFO - 共找到 12 行文本准备翻译。
+2025-06-28 13:37:10,697 - root - INFO - 正在处理批次 (行 1-12)...
+2025-06-28 13:37:10,698 - translator - INFO - --- [开始批量翻译] (12 行) ---
+2025-06-28 13:37:10,707 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 13:37:13,379 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 13:37:13,379 - translator - INFO - --- [批量翻译成功] (12 行) ---
+2025-06-28 13:37:13,384 - root - INFO - 批次 (行 1-12) 已在内存中处理完成。
+2025-06-28 13:37:14,386 - root - INFO - 所有批次处理完毕，准备保存文件...
+2025-06-28 13:37:14,395 - root - INFO - 所有翻译任务完成并成功保存到文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/奇瑞车型-VIN码收集.xlsx
+2025-06-28 13:37:36,646 - root - INFO - 翻译任务启动...
+2025-06-28 13:37:36,649 - translator - INFO - 翻译器已配置代理: socks5://127.0.0.1:10808
+2025-06-28 13:37:36,654 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 13:37:36,677 - root - INFO - 共找到 12 行文本准备翻译。
+2025-06-28 13:37:36,680 - root - INFO - 正在处理批次 (行 1-12)...
+2025-06-28 13:37:36,683 - translator - INFO - --- [开始批量翻译] (12 行) ---
+2025-06-28 13:37:36,686 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 13:37:39,334 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 13:37:39,336 - translator - INFO - --- [批量翻译成功] (12 行) ---
+2025-06-28 13:37:39,350 - root - INFO - 批次 (行 1-12) 已在内存中处理完成。
+2025-06-28 13:37:40,359 - root - INFO - 所有批次处理完毕，准备保存文件...
+2025-06-28 13:37:40,368 - root - INFO - 所有翻译任务完成并成功保存到文件: C:/Users/68783/Desktop/Laotiggo/客户与销售/奇瑞车型-VIN码收集.xlsx

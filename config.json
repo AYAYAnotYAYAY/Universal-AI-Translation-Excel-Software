@@ -1,10 +1,36 @@
 {
-    "api_provider": "DeepSeek",
-    "api_key": "sk-71c55240767b43a2b8a5797961aca33f",
+    "models": {
+        "Gemini (请先配置)": {
+            "provider": "Gemini",
+            "api_key": "在此处粘贴您的Google AI API密钥",
+            "model_id": ""
+        },
+        "DeepSeek (请先配置)": {
+            "provider": "DeepSeek",
+            "api_key": "在此处粘贴您的DeepSeek API密钥",
+            "model_id": "deepseek-chat"
+        },
+        "gemini": {
+            "provider": "Gemini",
+            "api_key": "AIzaSyApR87B7yrpsmnomXAT3JAUK--pmTTRw8Y",
+            "model_id": "models/gemini-2.5-flash-lite-preview-06-17"
+        }
+    },
+    "proxies": {
+        "本地": {
+            "type": "SOCKS5",
+            "address": "127.0.0.1",
+            "port": "10808",
+            "username": "",
+            "password": ""
+        }
+    },
+    "current_model_name": "gemini",
+    "current_proxy_name": "本地",
     "source_language": "俄语",
-    "target_language": "日语",
-    "prompt_template": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\n{text_to_translate}\n---批量翻译结束---\n\n\n\n",
+    "target_language": "简体中文",
+    "prompt_template": "You are an expert translator. Your task is to translate a batch of texts from {source_language} to {target_language}. The texts are separated by a unique delimiter: '|||---|||'.\n\n**CRITICAL INSTRUCTIONS:**\n1.  Translate each segment of text between the delimiters individually.\n2.  You MUST preserve the exact same delimiter '|||---|||' between each translated segment.\n3.  The number of delimiters in your output MUST be exactly one less than the number of text segments in the input.\n4.  If a segment is empty, you MUST output an empty segment followed by the delimiter.\n5.  Do NOT add any extra text, explanations, or formatting. Your response should only contain the translated texts separated by the specified delimiter.\n\n--- TEXT TO TRANSLATE ---\n{text_to_translate}",
     "src_col": "A",
-    "tgt_col": "D",
-    "src_row": "7"
+    "tgt_col": "C",
+    "src_row": "1"
 }
