@@ -4,7 +4,6 @@ import time
 import logging
 import re
 
-# 配置日志记录器
 logger = logging.getLogger(__name__)
 
 class Translator:

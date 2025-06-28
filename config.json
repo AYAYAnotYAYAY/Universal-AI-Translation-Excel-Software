@@ -1,8 +1,10 @@
 {
     "api_provider": "DeepSeek",
     "api_key": "sk-71c55240767b43a2b8a5797961aca33f",
-    "source_language": "简体中文",
-    "target_language": "俄语",
-    "prompt_template": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\n{text_to_translate}\n---批量翻译结束---\n\n",
-    "last_file_path": "C:/Users/68783/Desktop/刘帅事故车国内成本清单23566元.xlsx"
+    "source_language": "俄语",
+    "target_language": "日语",
+    "prompt_template": "请严格遵循以下要求进行翻译：\n1. 将下面的文本内容从【{source_language}】逐行翻译成【{target_language}】。\n2. 保持与原文完全相同的行数，如果某行为空，则在翻译结果中也保留空行。\n3. 不要在每行译文前添加任何序号、数字、点、破折号或任何其他标记。\n4. 直接输出译文，不要包含任何解释或额外说明。\n\n待翻译内容如下：\n---批量翻译开始---\n{text_to_translate}\n---批量翻译结束---\n\n\n\n",
+    "src_col": "A",
+    "tgt_col": "D",
+    "src_row": "7"
 }
