@@ -2,3 +2,8 @@ __pycache__/
 translation.log
 *.pyc
 config.json
+
+# Build artifacts
+build/
+dist/
+*.spec

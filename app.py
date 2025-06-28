@@ -460,6 +460,7 @@ class ModelManagerWindow(tk.Toplevel):
             proxy_config = self.app_instance.proxies.get(proxy_name) if proxy_name != "无代理" else None
             
             model_list = []
+            logger.debug(f"_fetch_models_worker: 传递的代理配置为: {proxy_config}")
             if provider == "Gemini":
                 model_list = translator.fetch_gemini_models(api_key, proxy_config)
             elif provider == "DeepSeek":

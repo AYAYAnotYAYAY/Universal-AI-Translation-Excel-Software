@@ -10,8 +10,8 @@ logger = logging.getLogger(__name__)
 LINE_SEPARATOR = "|||---|||"
 
 def fetch_gemini_models(api_key: str, proxy_config: dict = None) -> list[str]:
-    api_url = "https://generativelanguage.googleapis.com/v1beta/openai/models"
-    headers = {"Authorization": f"Bearer {api_key}"}
+    api_url = "https://generativelanguage.googleapis.com/v1beta/models"
+    headers = {"x-goog-api-key": api_key}
     proxies = None
 
     if proxy_config:
@@ -30,7 +30,7 @@ def fetch_gemini_models(api_key: str, proxy_config: dict = None) -> list[str]:
         response = requests.get(api_url, headers=headers, proxies=proxies, timeout=30)
         response.raise_for_status()
         data = response.json()
-        model_ids = [model['id'] for model in data.get('data', []) if 'gemini' in model.get('id')]
+        model_ids = [model['name'] for model in data.get('models', []) if 'gemini' in model.get('name')]
         model_ids.sort(key=lambda x: ('pro' not in x, 'flash' in x, x), reverse=False)
         logger.info(f"成功获取到 {len(model_ids)} 个Gemini模型。")
         return model_ids

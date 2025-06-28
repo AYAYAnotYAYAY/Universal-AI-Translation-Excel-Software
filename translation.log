@@ -1,1 +1,109 @@
-
+2025-06-28 16:28:16,576 - root - INFO - 未找到配置文件，创建默认配置。
+2025-06-28 16:28:16,577 - root - INFO - 配置已保存到 config.json
+2025-06-28 16:28:16,577 - root - INFO - AI模型配置已选择: ''
+2025-06-28 16:28:16,582 - root - INFO - 应用程序启动成功。
+2025-06-28 16:28:28,830 - root - INFO - 配置已保存到 config.json
+2025-06-28 16:28:31,119 - root - INFO - 配置已保存到 config.json
+2025-06-28 16:28:54,990 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:28:55,349 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/openai/models HTTP/1.1" 400 None
+2025-06-28 16:28:55,351 - translator - ERROR - 获取Gemini模型列表失败: HTTP 400: User location is not supported for the API use.
+2025-06-28 16:28:55,356 - root - ERROR - 获取 Gemini 模型列表失败: 获取Gemini模型列表失败: HTTP 400: User location is not supported for the API use.
+2025-06-28 16:35:08,286 - root - INFO - AI模型配置已选择: 'DeepSeek (请先配置)'
+2025-06-28 16:35:08,287 - root - INFO - 应用程序启动成功。
+2025-06-28 16:35:16,659 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:35:16,904 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/models HTTP/1.1" 400 None
+2025-06-28 16:35:16,905 - translator - ERROR - 获取Gemini模型列表失败: HTTP 400: User location is not supported for the API use.
+2025-06-28 16:35:16,909 - root - ERROR - 获取 Gemini 模型列表失败: 获取Gemini模型列表失败: HTTP 400: User location is not supported for the API use.
+2025-06-28 16:35:24,323 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:35:26,517 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/models HTTP/1.1" 200 None
+2025-06-28 16:35:26,518 - translator - INFO - 成功获取到 39 个Gemini模型。
+2025-06-28 16:37:06,020 - root - INFO - AI模型配置已选择: 'DeepSeek (请先配置)'
+2025-06-28 16:37:06,021 - root - INFO - 应用程序启动成功。
+2025-06-28 16:37:12,294 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:37:12,613 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/models HTTP/1.1" 400 None
+2025-06-28 16:37:12,615 - translator - ERROR - 获取Gemini模型列表失败: HTTP 400: User location is not supported for the API use.
+2025-06-28 16:37:12,619 - root - ERROR - 获取 Gemini 模型列表失败: 获取Gemini模型列表失败: HTTP 400: User location is not supported for the API use.
+2025-06-28 16:37:21,846 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:37:24,046 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/models HTTP/1.1" 200 None
+2025-06-28 16:37:24,047 - translator - INFO - 成功获取到 39 个Gemini模型。
+2025-06-28 16:39:58,964 - root - INFO - AI模型配置已选择: 'DeepSeek (请先配置)'
+2025-06-28 16:39:58,964 - root - INFO - 应用程序启动成功。
+2025-06-28 16:40:19,116 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:10809
+2025-06-28 16:40:20,720 - urllib3.connectionpool - DEBUG - http://127.0.0.1:10809 "GET http://www.google.com/generate_204 HTTP/1.1" 204 0
+2025-06-28 16:40:23,242 - root - INFO - 配置已保存到 config.json
+2025-06-28 16:40:36,077 - root - DEBUG - _fetch_models_worker: 传递的代理配置为: {'type': 'HTTP', 'address': '127.0.0.1', 'port': '10809', 'username': '', 'password': ''}
+2025-06-28 16:40:36,079 - translator - INFO - 正在通过代理 127.0.0.1:10809 获取Gemini模型列表...
+2025-06-28 16:40:36,085 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:40:38,319 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/models HTTP/1.1" 200 None
+2025-06-28 16:40:38,328 - translator - INFO - 成功获取到 39 个Gemini模型。
+2025-06-28 16:40:46,588 - root - DEBUG - _fetch_models_worker: 传递的代理配置为: {'type': 'HTTP', 'address': '127.0.0.1', 'port': '10809', 'username': '', 'password': ''}
+2025-06-28 16:40:46,589 - translator - INFO - 正在通过代理 127.0.0.1:10809 获取Gemini模型列表...
+2025-06-28 16:40:46,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:40:48,793 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "GET /v1beta/models HTTP/1.1" 200 None
+2025-06-28 16:40:48,794 - translator - INFO - 成功获取到 39 个Gemini模型。
+2025-06-28 16:40:56,765 - root - INFO - 配置已保存到 config.json
+2025-06-28 16:41:21,516 - root - INFO - 翻译任务启动...
+2025-06-28 16:41:21,523 - translator - INFO - 翻译器已配置代理: http://127.0.0.1:10809
+2025-06-28 16:41:21,534 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 16:41:21,585 - root - INFO - 共找到 34 行文本准备翻译。
+2025-06-28 16:41:21,593 - root - INFO - 正在处理批次 (行 2-35)...
+2025-06-28 16:41:21,600 - translator - INFO - --- [开始批量翻译] (34 行) ---
+2025-06-28 16:41:21,606 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:41:25,020 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 16:41:25,023 - translator - INFO - --- [批量翻译成功] (34 行) ---
+2025-06-28 16:41:25,034 - root - INFO - 批次 (行 2-35) 已在内存中处理完成。
+2025-06-28 16:41:26,050 - root - INFO - 所有批次处理完毕，准备保存文件...
+2025-06-28 16:41:26,050 - root - ERROR - 翻译线程发生严重错误: [Errno 13] Permission denied: 'C:/Users/68783/Desktop/业务走访信息.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 796, in _translation_worker
+    workbook.save(file_path)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/Users/68783/Desktop/业务走访信息.xlsx'
+2025-06-28 16:41:36,261 - root - INFO - 配置已保存到 config.json
+2025-06-28 16:41:38,717 - root - INFO - 翻译任务启动...
+2025-06-28 16:41:38,729 - translator - INFO - 翻译器已配置代理: http://127.0.0.1:10809
+2025-06-28 16:41:38,746 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 16:41:38,778 - root - INFO - 共找到 34 行文本准备翻译。
+2025-06-28 16:41:38,811 - root - INFO - 正在处理批次 (行 2-35)...
+2025-06-28 16:41:38,829 - translator - INFO - --- [开始批量翻译] (34 行) ---
+2025-06-28 16:41:38,854 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:41:43,651 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 16:41:43,653 - translator - ERROR - [翻译结果行数校验失败] 预期 34 行, 收到 35 行。
+2025-06-28 16:41:43,684 - translator - DEBUG - 原始返回内容: حديقة 50 عامًا من Komsomol|||---|||شارع تشكالوف، 4، الطابق الأول|||---|||شارع شاوميان، 59، صندوق 59|||---|||ديبوتاتسكايا، 85|||---|||غاراجنايا 24|||---|||غاراجنايا 6ب|||---|||تشيمبيونوف 13أ/120|||---|||تشيمبيونوف 13أ|||---|||تشيمبيونوف 7|||---|||شارع غورودسكايا 1أ/2|||---|||بريديلينايا 1غ|||---|||بيسيرتسكايا 1ف|||---|||سيلكوروفسكايا 118|||---|||بيسيرتسكايا 1ر|||---||||||---|||مارتوفسكايا 8|||---|||بيسيرتسكايا 132ب\1|||---|||دارفينا 4د|||---|||ألبينيستوف 67|||---|||تشيرنياخوفسكايا 66|||---|||تراكتوفايا 2ب|||---||||||---|||كومسومولا 33|||---|||فوستوتشنايا 28ب|||---|||ستودنتشيسكايا 80\2|||---|||غاجارينا 6\3|||---|||ممر أفتوماتيكي 2|||---||||||---||||||---|||شارع كوزمونافتوف، 15 حرف أ|||---|||كوزمونافتوف 98أ|||---|||شيفسكايا 114أ|||---|||فرونتوفيك بريجاد 33أ|||---|||شيفسكايا 2أ ست7\1|||---|||شارع أباراتنايا 5 حرف ك
+2025-06-28 16:41:43,714 - root - INFO - 批次 (行 2-35) 已在内存中处理完成。
+2025-06-28 16:41:44,784 - root - INFO - 所有批次处理完毕，准备保存文件...
+2025-06-28 16:41:44,785 - root - ERROR - 翻译线程发生严重错误: [Errno 13] Permission denied: 'C:/Users/68783/Desktop/业务走访信息.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\68783\Desktop\Code\Universal-AI-Translation-Excel-Software\app.py", line 796, in _translation_worker
+    workbook.save(file_path)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\68783\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/Users/68783/Desktop/业务走访信息.xlsx'
+2025-06-28 16:42:02,055 - root - INFO - 翻译任务启动...
+2025-06-28 16:42:02,089 - translator - INFO - 翻译器已配置代理: http://127.0.0.1:10809
+2025-06-28 16:42:02,112 - translator - INFO - 翻译器已在 [Gemini - OpenAI兼容模式]下初始化。
+2025-06-28 16:42:02,207 - root - INFO - 共找到 34 行文本准备翻译。
+2025-06-28 16:42:02,267 - root - INFO - 正在处理批次 (行 2-35)...
+2025-06-28 16:42:02,269 - translator - INFO - --- [开始批量翻译] (34 行) ---
+2025-06-28 16:42:02,303 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-06-28 16:42:05,900 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/openai/chat/completions HTTP/1.1" 200 None
+2025-06-28 16:42:05,900 - translator - ERROR - [翻译结果行数校验失败] 预期 34 行, 收到 35 行。
+2025-06-28 16:42:05,932 - translator - DEBUG - 原始返回内容: حديقة 50 عامًا من Komsomol|||---|||شارع تشكالوف، 4، الطابق الأول|||---|||شارع شاوميان، 59، صندوق 59|||---|||ديبوتاتسكايا، 85|||---|||غاراجنايا 24|||---|||غاراجنايا 6ب|||---|||تشيمبيونوف 13أ/120|||---|||تشيمبيونوف 13أ|||---|||تشيمبيونوف 7|||---|||شارع غورودسكايا 1أ/2|||---|||بريديلينايا 1غ|||---|||بيسيرتسكايا 1ف|||---|||سيلكوروفسكايا 118|||---|||بيسيرتسكايا 1ر|||---||||||---|||مارتا 8|||---|||بيسيرتسكايا 132ب\1|||---|||داروين 4د|||---|||ألبينيستوف 67|||---|||تشيرنياخوفسكي 66|||---|||تراكتوفايا 2ب|||---||||||---|||كومسومولا 33|||---|||فوستوتشنايا 28ب|||---|||ستودنتشيسكايا 80\2|||---|||غاجارين 6\3|||---|||ممر أوتوماتيكي 2|||---||||||---||||||---|||شارع كوزمونافتوف، 15 حرف أ|||---|||كوزمونافتوف 98أ|||---|||شيفسكايا 114أ|||---|||فرونتوفيك بريجاد 33أ|||---|||شيفسكايا 2أ ست7\1|||---|||شارع أباراتنايا 5 حرف ك
+2025-06-28 16:42:05,963 - root - INFO - 批次 (行 2-35) 已在内存中处理完成。
+2025-06-28 16:42:07,000 - root - INFO - 所有批次处理完毕，准备保存文件...
+2025-06-28 16:42:07,012 - root - INFO - 所有翻译任务完成并成功保存到文件: C:/Users/68783/Desktop/业务走访信息.xlsx
